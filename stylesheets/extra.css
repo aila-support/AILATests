@@ -69,3 +69,42 @@
   background: rgba(164, 255, 244, 0) !important; /* خلفية خفيفة عند hover */
   color: #4db8ac !important;
 }
+
+/* 🌐 تحسين العرض للجوال */
+@media (max-width: 768px) {
+
+  /* تصغير الهيدر والكروت */
+  .home-cards {
+    grid-template-columns: repeat(1, 1fr) !important; /* كرت واحد بكل صف */
+    gap: 1rem !important;
+  }
+
+  .home-cards li {
+    width: 90% !important;      /* الكرت ياخذ أغلب الشاشة */
+    min-height: 140px !important;
+    padding: 1rem !important;
+  }
+
+  .home-cards img {
+    max-height: 45px !important; /* تصغير الأيقونة */
+  }
+
+  /* البوب أب الترحيبي */
+  .popup-content,
+  .aila-modal__card {
+    width: 90% !important;
+    padding: 20px !important;
+    height: auto !important;
+  }
+
+  /* النصوص داخل الترحيب */
+  .popup-content h2,
+  .aila-modal__title {
+    font-size: 1.4rem !important;
+  }
+
+  .popup-content p,
+  .aila-modal__subtitle {
+    font-size: 0.9rem !important;
+  }
+}
