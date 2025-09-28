@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/"/>
+    </url>
+    <url>
+        <loc>Nonedashboard/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonedashboard/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/dashboard/"/>
+    </url>
+    <url>
+        <loc>Nonehelp/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonehelp/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/help/"/>
+    </url>
+    <url>
+        <loc>Nonekeys/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonekeys/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/keys/"/>
+    </url>
+    <url>
+        <loc>Nonelogin/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonelogin/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/login/"/>
+    </url>
+    <url>
+        <loc>Nonestudents/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonestudents/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/students/"/>
+    </url>
+    <url>
+        <loc>Nonetips/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetips/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/tips/"/>
+    </url>
+    <url>
+        <loc>Nonear/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Nonear/dashboard/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/dashboard/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonedashboard/"/>
+    </url>
+    <url>
+        <loc>Nonear/help/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/help/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonehelp/"/>
+    </url>
+    <url>
+        <loc>Nonear/keys/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/keys/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonekeys/"/>
+    </url>
+    <url>
+        <loc>Nonear/login/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/login/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonelogin/"/>
+    </url>
+    <url>
+        <loc>Nonear/students/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/students/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonestudents/"/>
+    </url>
+    <url>
+        <loc>Nonear/tips/</loc>
+        <lastmod>2025-09-28</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ar" href="Nonear/tips/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="Nonetips/"/>
+    </url>
+</urlset>

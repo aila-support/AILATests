@@ -1,0 +1,71 @@
+/* 🔙 زر الرجوع (في الأسفل يمين) */
+.back-button {
+  position: fixed;          /* ثابت أسفل الصفحة */
+  bottom: 25px;             /* يبعد عن الأسفل */
+  right: 25px;              /* يبعد عن اليمين */
+  background: #ffffffb3;
+  color: #4db8ac;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: 25px;
+  text-decoration: none;
+  border: 2px solid rgba(77, 184, 172, 0.4);
+  box-shadow: 0 3px 8px rgba(77, 184, 172, 0.06);
+  transition: all 0.25s ease;
+  backdrop-filter: blur(6px);
+  z-index: 999; /* يضمن أنه فوق كل شيء */
+}
+
+.back-button:hover {
+  background: rgba(77, 184, 172, 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(77, 184, 172, 0.12);
+}
+/* 🌍 توحيد تنسيق زر تبديل اللغة (يعمل في العربي والإنجليزي) */
+.md-header__button[title*="language"],
+.md-header__button[aria-label*="language"],
+.md-header__button[title*="اللغة"],
+.md-header__button[aria-label*="اللغة"],
+.md-header__option .md-select__link,
+.md-header__option .md-icon {
+  color: #4db8ac !important; /* اللون الأساسي */
+  background-color: rgba(77, 184, 172, 0.15) !important; /* خلفية شفافة خفيفة */
+  border-radius: 50% !important; /* شكل دائري */
+  padding: 6px !important; /* مساحة حول الأيقونة */
+  box-shadow: 0 0 6px rgba(77, 184, 172, 0.25) !important; /* لمعة ناعمة */
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+}
+
+/* ✨ تأثير عند المرور - الخلفية تصير شفافة تمامًا */
+.md-header__button[title*="language"]:hover,
+.md-header__button[aria-label*="language"]:hover,
+.md-header__button[title*="اللغة"]:hover,
+.md-header__button[aria-label*="اللغة"]:hover,
+.md-header__option .md-select__link:hover,
+.md-header__option .md-icon:hover {
+  background-color: transparent !important; /* 🔹 شفافة */
+  transform: scale(1.05);
+  box-shadow: 0 0 8px rgba(228, 234, 233, 0.4) !important; /* لمعة إضافية خفيفة */
+}
+
+/* 🎨 تخصيص خلفية القائمة المنسدلة للغات */
+.md-select__inner {
+  background: rgba(255, 255, 255, 0.95) !important; /* خلفية بيضاء شبه شفافة */
+  border: 1px solid rgba(77, 184, 172, 0.3) !important; /* حدود تركوازية خفيفة */
+  box-shadow: 0 4px 12px rgba(77, 184, 172, 0.15) !important; /* ظل ناعم */
+  backdrop-filter: blur(10px) !important; /* تأثير زجاجي بسيط */
+}
+
+/* 🧊 خيار اللغة */
+.md-select__link {
+  color: #4db8ac !important; /* لون الخط */
+  background: transparent !important; /* بدون خلفية لكل خيار */
+}
+
+/* ✨ عند المرور على الخيار */
+.md-select__link:hover {
+  background: rgba(164, 255, 244, 0) !important; /* خلفية خفيفة عند hover */
+  color: #4db8ac !important;
+}
