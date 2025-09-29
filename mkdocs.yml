@@ -1,0 +1,52 @@
+site_name: AILA Tests
+docs_dir: docs
+
+theme:
+  name: material
+  logo: assets/images/ailatests.png
+  favicon: assets/images/tests.png
+  features:
+    - navigation.instant
+
+plugins:
+  - search
+  - i18n:
+      default_language: en
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+          nav:
+            - Home: index.md
+            - Login: login.md
+            - Dashboard: dashboard.md
+            - Seat Keys: keys.md
+            - Students: students.md
+            - Tips: tips.md
+            - Help: help.md
+        - locale: ar
+          name: العربية
+          build: true
+          nav:
+            - الرئيسية: index.ar.md
+            - تسجيل الدخول: login.ar.md
+            - لوحة التحليلات: dashboard.ar.md
+            - مفاتيح المقاعد: keys.ar.md
+            - الطلاب: students.ar.md
+            - النصائح: tips.ar.md
+            - الدعم والمساعدة: help.ar.md
+
+extra_css:
+  - assets/overrides.css
+  - stylesheets/extra.css
+
+extra_javascript:
+  - assets/popup.js
+
+markdown_extensions:
+  - md_in_html
+  - pymdownx.superfences
+  - admonition
+  - attr_list
+  - pymdownx.details
