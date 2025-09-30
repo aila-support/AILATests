@@ -130,3 +130,18 @@
     font-size: 0.85rem !important;
   }
 }
+
+/* 🔧 إصلاح مشكلة اختفاء اللوقو في الشاشات الصغيرة */
+.md-header__button.md-logo img {
+  max-height: 40px !important;  /* حجم مناسب للهاتف */
+  width: auto !important;
+}
+
+@media (max-width: 600px) {
+  .md-header__button.md-logo {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
